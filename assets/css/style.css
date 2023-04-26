@@ -1,0 +1,956 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Gordita Regular";
+  font-size: 17px;
+  color: #0b0a0a;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gordita/Gordita Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Gordita Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gordita/Gordita Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Gordita Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gordita/Gordita Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Gordita Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gordita/Gordita Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gordita/Gordita Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Gordita Ultra";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gordita/Gordita Ultra.woff") format("woff");
+}
+input,
+textarea,
+select {
+  font-family: "Gordita Regular";
+  font-weight: 500;
+}
+
+a {
+  color: #0b0a0a;
+}
+
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "Gordita Regular";
+  font-weight: 500;
+  color: #0b0a0a;
+}
+
+.hidden {
+  display: none;
+}
+
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 94px;
+}
+
+h2 {
+  font-size: 74px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+.no_margin {
+  margin-right: 0 !important;
+}
+
+header div.header-top {
+  padding: 15px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index: 1;
+  max-width: 1500px;
+}
+header div.header-top h1.left {
+  width: 80px;
+}
+header div.header-top nav.right {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+header div.header-top nav.right a {
+  font-family: "Gordita Medium";
+  color: grey;
+  position: relative;
+}
+header div.header-top nav.right a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+header div.header-top nav.right a:hover {
+  color: #000;
+}
+header div.header-top nav.right a:hover::after {
+  width: 100%;
+}
+header div.header-top nav.right button.login-button {
+  padding: 12px 24px;
+  background: #050ee7;
+  border-radius: 30px;
+  font-family: "Gordita Medium";
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+header div.header-top div#menu-icon {
+  display: none;
+}
+header div#menu {
+  display: none;
+}
+header div#menu.active {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.062745098);
+}
+header div#menu a {
+  font-family: "Gordita Medium";
+  color: grey;
+  position: relative;
+}
+header div#menu a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+header div#menu a:hover {
+  color: #000;
+}
+header div#menu a:hover::after {
+  width: 100%;
+}
+header div#menu button.login-button {
+  padding: 12px 24px;
+  background: #050ee7;
+  border-radius: 30px;
+  font-family: "Gordita Medium";
+  color: #fff;
+  cursor: pointer;
+}
+
+#spotlight {
+  padding: 200px 0 0 0;
+}
+#spotlight div.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#spotlight div.top div.top-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+#spotlight div.top div.top-left span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+#spotlight div.top div.top-left span div.icon {
+  width: 20px;
+}
+#spotlight div.top div.top-left span p {
+  color: #050ee7;
+  font-family: "Gordita Medium";
+  font-size: 18px;
+}
+#spotlight div.top div.top-left h2 {
+  font-family: "Gordita Bold";
+  font-size: 45px;
+}
+#spotlight div.top div.top-left h2 span {
+  color: #050ee7;
+  display: inline-block;
+}
+#spotlight div.top div.top-left p {
+  font-size: 15px;
+  font-family: "Gordita Medium";
+  color: #898989;
+}
+#spotlight div.top div.top-left div.input-container {
+  width: 90%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 7px 67px 5px rgba(217, 219, 251, 0.64);
+}
+#spotlight div.top div.top-left div.input-container input {
+  font-family: "Gordita Medium";
+  color: #898989;
+  font-size: 15px;
+}
+#spotlight div.top div.top-left div.input-container button {
+  padding: 15px 30px;
+  background: #050ee7;
+  border-radius: 10px;
+  font-family: "Gordita Medium";
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+#spotlight div.top div.top-right {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+}
+#spotlight div.top div.top-right div.spotlight-image {
+  width: 160px;
+}
+#spotlight div.top div.top-right div.spotlight-image.middle {
+  transform: translateY(80px);
+}
+#spotlight div.top div.top-right div.spotlight-image img {
+  border-radius: 20px;
+}
+#spotlight div.bottom {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#spotlight div.bottom h5 {
+  font-size: 15px;
+  font-family: "Gordita Medium";
+  color: #898989;
+  padding-top: 10px;
+  border-top: 2px solid #898989;
+}
+#spotlight div.bottom ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#spotlight div.bottom ul li {
+  width: 100px;
+}
+
+#achieve {
+  background: #f4f5fa;
+  padding: 50px 0;
+}
+#achieve .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#achieve .wrapper div.left {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#achieve .wrapper div.left h5 {
+  color: #898989;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Gordita Medium";
+}
+#achieve .wrapper div.left h3 {
+  font-size: 30px;
+  font-family: "Gordita Bold";
+  width: 90%;
+}
+#achieve .wrapper div.middle {
+  width: 28%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+#achieve .wrapper div.middle div.image {
+  width: 100px;
+  padding: 20px;
+  background: #9747ff;
+  border-radius: 50px;
+}
+#achieve .wrapper div.middle div.image img {
+  filter: invert(1);
+}
+#achieve .wrapper div.middle div.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#achieve .wrapper div.middle div.text h4 {
+  color: #000;
+  font-size: 20px;
+  font-family: "Gordita Medium";
+}
+#achieve .wrapper div.middle div.text p {
+  color: #898989;
+  font-size: 13px;
+  font-family: "Gordita Medium";
+}
+#achieve .wrapper div.right {
+  width: 28%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+#achieve .wrapper div.right div.image {
+  width: 100px;
+  padding: 20px;
+  background: #ee2a52;
+  border-radius: 50px;
+}
+#achieve .wrapper div.right div.image img {
+  filter: invert(1);
+}
+#achieve .wrapper div.right div.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#achieve .wrapper div.right div.text h4 {
+  color: #000;
+  font-size: 20px;
+  font-family: "Gordita Medium";
+}
+#achieve .wrapper div.right div.text p {
+  color: #898989;
+  font-size: 13px;
+  font-family: "Gordita Medium";
+}
+
+#help {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+#help div.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#help div.top h2 {
+  font-size: 50px;
+  font-family: "Gordita Bold";
+  width: 80%;
+}
+#help div.top p {
+  color: #898989;
+  font-size: 15px;
+  font-family: "Gordita Medium";
+}
+#help ul.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#help ul.middle li {
+  background: #f0eeee;
+  border-radius: 10px;
+  width: 25%;
+  text-align: center;
+  padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#help ul.middle li div.icon {
+  width: 80px;
+  padding: 20px;
+  border-radius: 55px;
+}
+#help ul.middle li div.search {
+  background: #9747ff;
+}
+#help ul.middle li div.settings {
+  background: #ee2a52;
+}
+#help ul.middle li div.rocket {
+  background: #f0d159;
+}
+#help ul.middle li h5 {
+  font-size: 18px;
+  font-family: "Gordita Medium";
+}
+#help ul.middle li p {
+  font-size: 13px;
+  width: 70%;
+  font-family: "Gordita Medium";
+  color: #898989;
+}
+#help div.bottom {
+  display: flex;
+  justify-content: center;
+}
+#help div.bottom button {
+  padding: 15px 30px;
+  background: #050ee7;
+  border-radius: 10px;
+  font-family: "Gordita Medium";
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#schedule {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+#schedule div.left {
+  width: 50%;
+}
+#schedule div.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#schedule div.right h6 {
+  color: #ffb15f;
+  font-size: 15px;
+  font-family: "Gordita Medium";
+  text-transform: uppercase;
+}
+#schedule div.right h4 {
+  font-size: 30px;
+  font-family: "Gordita Medium";
+  width: 80%;
+  margin-bottom: 20px;
+}
+#schedule div.right p {
+  font-size: 15px;
+  font-family: "Gordita Medium";
+  color: #898989;
+  width: 80%;
+  margin-bottom: 20px;
+}
+#schedule div.right div.learn-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#schedule div.right div.learn-more span {
+  font-family: "Gordita Medium";
+  color: #050ee7;
+}
+#schedule div.right div.learn-more div.icon {
+  width: 20px;
+}
+
+#monitor {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+#monitor div.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#monitor div.left h6 {
+  color: #ffb15f;
+  font-size: 15px;
+  font-family: "Gordita Medium";
+  text-transform: uppercase;
+}
+#monitor div.left h4 {
+  font-size: 30px;
+  font-family: "Gordita Medium";
+  width: 80%;
+  margin-bottom: 20px;
+}
+#monitor div.left p {
+  font-size: 15px;
+  font-family: "Gordita Medium";
+  color: #898989;
+  width: 80%;
+  margin-bottom: 20px;
+}
+#monitor div.left div.learn-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#monitor div.left div.learn-more span {
+  font-family: "Gordita Medium";
+  color: #050ee7;
+}
+#monitor div.left div.learn-more div.icon {
+  width: 20px;
+}
+#monitor div.right {
+  width: 50%;
+}
+
+#pricing {
+  background: #e9fbfd;
+  padding: 80px 0;
+  position: relative;
+}
+#pricing div.price-container {
+  background: #fff;
+  width: 50%;
+  padding: 40px 0;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+#pricing div.price-container h4 {
+  font-size: 25px;
+  color: #06085f;
+  text-align: center;
+  font-family: "Gordita Medium";
+  margin-bottom: 30px;
+}
+#pricing div.price-container div.top {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+#pricing div.price-container div.top div.price-details h6 {
+  font-size: 15px;
+  color: #898989;
+  font-family: "Gordita Medium";
+  margin-bottom: 10px;
+}
+#pricing div.price-container div.top div.price-details h4 {
+  font-size: 25px;
+  color: #020331;
+  font-family: "Gordita Bold";
+}
+#pricing div.price-container div.bottom {
+  width: 80%;
+  margin: 0 auto;
+}
+#pricing div.price-container div.bottom h5 {
+  font-size: 15px;
+  color: #898989;
+  font-family: "Gordita Medium";
+  margin-bottom: 10px;
+}
+#pricing div.price-container div.bottom div.price-slider {
+  background: #020331;
+  width: 100%;
+  height: 15px;
+  border-radius: 10px;
+}
+#pricing div.price-container div.bottom div.price-slider div.price-slider-circle {
+  background: #fff;
+  height: 16px;
+  width: 16px;
+  border-radius: 50px;
+  margin-left: 150px;
+}
+#pricing div.pricing-input-container {
+  background-color: #fff;
+  box-shadow: 10px 7px 10px #898989;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 30px;
+  right: 200px;
+}
+#pricing div.pricing-input-container input {
+  width: 50%;
+  border: none;
+  font-family: "Gordita Medium";
+}
+#pricing div.pricing-input-container button {
+  padding: 15px 30px;
+  background: #050ee7;
+  border-radius: 10px;
+  font-family: "Gordita Medium";
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#service {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+#service div.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#service div.left h1 {
+  font-size: 35px;
+  width: 80%;
+  font-family: "Gordita Medium";
+}
+#service div.left p {
+  font-size: 14px;
+  font-family: "Gordita Medium";
+  width: 75%;
+  color: #898989;
+}
+#service div.left div.details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+#service div.left div.details div.details-icon {
+  background: #4d46c7;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  padding: 5px;
+}
+#service div.left div.details div.details-icon img {
+  filter: invert(1);
+}
+#service div.left div.details span {
+  font-size: 12px;
+  color: #898989;
+  font-family: "Gordita Medium";
+}
+#service div.left button {
+  padding: 15px 30px;
+  background: #050ee7;
+  border-radius: 25px;
+  font-family: "Gordita Medium";
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  width: 200px;
+}
+#service ul.right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#service ul.right li {
+  width: 50%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#service ul.right li div.icon {
+  width: 55px;
+}
+#service ul.right li h6 {
+  font-size: 20px;
+  font-family: "Gordita Medium";
+}
+#service ul.right li p {
+  font-size: 15px;
+  width: 75%;
+}
+#service ul.right li a {
+  font-size: 12px;
+  font-family: "Gordita Medium";
+  color: #9747ff;
+  text-transform: uppercase;
+}
+
+#testimonials {
+  padding: 20px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#testimonials div.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+#testimonials div.top h3 {
+  font-size: 34px;
+  font-family: "Gordita Medium";
+}
+#testimonials div.top h6 {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+#testimonials ul.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#testimonials ul.bottom li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 25%;
+}
+#testimonials ul.bottom li div.profile {
+  width: 80px;
+}
+#testimonials ul.bottom li div.profile img {
+  border-radius: 50px;
+}
+#testimonials ul.bottom li ul.starbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#testimonials ul.bottom li ul.starbox li.star {
+  width: 15px;
+}
+#testimonials ul.bottom li h6 {
+  font-size: 20px;
+  font-family: "Gordita Medium";
+}
+#testimonials ul.bottom li p {
+  font-size: 13px;
+  text-align: center;
+  color: #898989;
+}
+
+#subscribe {
+  padding: 100px 80px;
+}
+#subscribe div.container {
+  background: #4d53e5;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-radius: 20px;
+}
+#subscribe div.container div.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#subscribe div.container div.left h4 {
+  font-family: "Gordita Medium";
+  font-size: 30px;
+  color: #fff;
+}
+#subscribe div.container div.left h6 {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  width: 70%;
+}
+#subscribe div.container div.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  width: 45%;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+#subscribe div.container div.right button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background: #2fb552;
+  padding: 13px 13px 13px 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  gap: 10px;
+}
+#subscribe div.container div.right button div.arrow {
+  width: 25px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer {
+  background: #f8f8f8;
+  padding: 100px 0 20px 0;
+}
+footer div.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+footer div.top div.top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 25%;
+}
+footer div.top div.top-left div.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+footer div.top div.top-left div.logo a {
+  width: 30px;
+  cursor: pointer;
+}
+footer div.top div.top-left div.logo span {
+  font-family: "Gordita Medium";
+  font-size: 20px;
+}
+footer div.top div.top-left p {
+  font-family: "Gordita Medium";
+  font-size: 15px;
+  color: #898989;
+  width: 80%;
+}
+footer div.top ul.top-right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 100px;
+}
+footer div.top ul.top-right li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer div.top ul.top-right li h5 {
+  font-family: "Gordita Medium";
+  font-size: 20px;
+}
+footer div.top ul.top-right li a {
+  font-size: 15px;
+  font-family: "Gordita Medium";
+  color: #898988;
+  cursor: pointer;
+}
+footer div.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #898989;
+  padding-top: 20px;
+}
+footer div.bottom p {
+  font-size: 15px;
+  font-family: "Gordita Medium";
+  color: #898988;
+}/*# sourceMappingURL=style.css.map */
