@@ -986,3 +986,2253 @@ footer {
 }
 
 // ------------------------ footer style ends -----------------------------------------
+
+@media all and (max-width: 980px) {
+    header div.header-top {
+        h1.left {
+            width: 50px;
+        }
+        nav.right {
+            gap: 50px;
+            a {
+                font-size: 14px;
+            }
+            button.login-button {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    }
+    #spotlight {
+        padding: 150px 0 0 0;
+        div.top {
+            div.top-left {
+                gap: 30px;
+                h2 {
+                    font-size: 35px;
+                }
+                p {
+                    font-size: 13px;
+                }
+                div.input-container {
+                    padding: 10px;
+                    input {
+                        font-size: 14px;
+                    }
+                    button {
+                        padding: 12px 24px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            div.top-right {
+                div.spotlight-image {
+                    width: 125px;
+                    &.middle {
+                        transform: translateY(62px);
+                    }
+                }
+            }
+        }
+        div.bottom {
+            padding: 50px 0;
+            h5 {
+                font-size: 13px;
+            }
+            ul {
+                gap: 20px;
+                li {
+                    width: 75px;
+                }
+            }
+        }
+    }
+    #achieve {
+        padding: 40px 0;
+        .wrapper {
+            div.left {
+                width: 25%;
+                h5 {
+                    font-size: 15px;
+                }
+                h3 {
+                    font-size: 22px;
+                }
+            }
+            div.middle {
+                width: 35%;
+                div.image {
+                    width: 70px;
+                    padding: 12px;
+                }
+                div.text {
+                    h4 {
+                        font-size: 18px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+            div.right {
+                width: 35%;
+                div.image {
+                    width: 70px;
+                    padding: 12px;
+                }
+                div.text {
+                    h4 {
+                        font-size: 18px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    #help {
+        padding: 60px 0;
+        gap: 40px;
+        div.top {
+            h2 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 13px;
+            }
+        }
+        ul.middle {
+            gap: 40px;
+            li {
+                width: 30%;
+                padding: 40px 10px;
+                div.icon {
+                    width: 75px;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+    #subscribe {
+        padding: 80px 70px;
+        div.container {
+            padding: 45px;
+            gap: 30px;
+            div.left {
+                h4 {
+                    font-size: 25px;
+                }
+                h6 {
+                    font-size: 12px;
+                    width: 85%;
+                }
+            }
+            div.right {
+                width: 53%;
+                height: 51px;
+            }
+        }
+    }
+    footer {
+        padding: 75px 0 20px 0;
+        div.top {
+            div.top-left {
+                div.logo span {
+                    font-size: 19px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+            ul.top-right {
+                gap: 60px;
+                li {
+                    h5 {
+                        font-size: 18px;
+                    }
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        div.bottom p {
+            font-size: 14px;
+        }
+    }
+}
+
+// ------------------------ responsive for 980 ends -----------------------------------------
+
+@media all and (max-width: 768px) {
+    header div.header-top {
+        h1.left {
+            width: 50px;
+        }
+        nav.right {
+            gap: 30px;
+            a {
+                font-size: 12px;
+            }
+            button.login-button {
+                padding: 10px 20px;
+                font-size: 12px;
+            }
+        }
+    }
+    #spotlight {
+        padding: 120px 0 0 0;
+        div.top {
+            div.top-left {
+                gap: 30px;
+                span {
+                    div.icon {
+                        width: 15px;
+                        margin-bottom: 5px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+                h2 {
+                    font-size: 25px;
+                }
+                p {
+                    font-size: 12px;
+                }
+                div.input-container {
+                    padding: 10px;
+                    input {
+                        font-size: 12px;
+                    }
+                    button {
+                        padding: 10px 20px;
+                        font-size: 12px;
+                    }
+                }
+            }
+            div.top-right {
+                div.spotlight-image {
+                    width: 100px;
+                    &.middle {
+                        transform: translateY(50px);
+                    }
+                }
+            }
+        }
+        div.bottom {
+            padding: 50px 0;
+            h5 {
+                font-size: 10px;
+            }
+            ul {
+                gap: 20px;
+                li {
+                    width: 60px;
+                }
+            }
+        }
+    }
+    #achieve {
+        padding: 40px 0;
+        .wrapper {
+            div.left {
+                width: 25%;
+                h5 {
+                    font-size: 13px;
+                }
+                h3 {
+                    font-size: 17px;
+                }
+            }
+            div.middle {
+                width: 35%;
+                div.image {
+                    width: 60px;
+                    padding: 10px;
+                }
+                div.text {
+                    h4 {
+                        font-size: 15px;
+                    }
+                    p {
+                        font-size: 10px;
+                    }
+                }
+            }
+            div.right {
+                width: 35%;
+                div.image {
+                    width: 60px;
+                    padding: 10px;
+                }
+                div.text {
+                    h4 {
+                        font-size: 15px;
+                    }
+                    p {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    #help {
+        padding: 60px 0;
+        gap: 40px;
+        div.top {
+            h2 {
+                font-size: 35px;
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+        ul.middle {
+            gap: 30px;
+            li {
+                width: 30%;
+                padding: 30px 10px;
+                div.icon {
+                    width: 60px;
+                    padding: 15px;
+                }
+                h5 {
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 90%;
+                }
+            }
+        }
+        div.bottom button {
+            padding: 12px 24px;
+            font-size: 12px;
+        }
+    }
+    #schedule {
+        padding: 50px 0;
+        gap: 50px;
+        div.right {
+            gap: 15px;
+            h6 {
+                font-size: 13px;
+            }
+            h4 {
+                font-size: 19px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 12px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more span {
+                font-size: 12px;
+            }
+        }
+    }
+    #monitor {
+        padding: 50px 0;
+        div.left {
+            gap: 15px;
+            h6 {
+                font-size: 13px;
+            }
+            h4 {
+                font-size: 19px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 12px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more span {
+                font-size: 12px;
+            }
+        }
+    }
+    #pricing {
+        padding: 50px 0;
+        div.price-container {
+            width: 70%;
+            div.top {
+                display: flex;
+                justify-content: space-between;
+                width: 70%;
+            }
+        }
+        div.pricing-input-container {
+            width: 50%;
+            padding: 10px;
+            bottom: 10px;
+            right: 80px;
+            button {
+                padding: 12px 24px;
+                font-size: 13px;
+            }
+        }
+    }
+    #service {
+        padding: 50px 0;
+        div.left {
+            h1 {
+                font-size: 30px;
+                width: 90%;
+            }
+            p {
+                font-size: 12px;
+                width: 90%;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 14px;
+                width: 160px;
+            }
+        }
+        ul.right li {
+            width: 48%;
+            margin-bottom: 25px;
+            gap: 15px;
+            div.icon {
+                width: 50px;
+            }
+            h6 {
+                font-size: 19px;
+            }
+            p {
+                font-size: 13px;
+                width: 100%;
+            }
+        }
+    }
+    #testimonials ul.bottom li {
+        width: 30%;
+    }
+    #subscribe {
+        padding: 80px 5%;
+        div.container {
+            padding: 10% 5%;
+            gap: 20px;
+            width: 100%;
+            margin: 0 auto;
+            div.left {
+                h4 {
+                    font-size: 20px;
+                }
+                h6 {
+                    font-size: 11px;
+                }
+            }
+            div.right {
+                height: auto;
+                input {
+                    font-size: 11px;
+                }
+                button {
+                    font-size: 11px;
+                    div.arrow {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        padding: 50px 0 20px 0;
+        div.top {
+            div.top-left {
+                width: 30%;
+                div.logo span {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 11px;
+                    width: 90%;
+                }
+            }
+            ul.top-right {
+                width: 60%;
+                gap: 40px;
+                li {
+                    h5 {
+                        font-size: 15px;
+                    }
+                    a {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+        div.bottom p {
+            font-size: 11px;
+        }
+    }
+}
+
+// ------------------------ responsive for 768 ends -----------------------------------------
+
+@media all and (max-width: 640px) {
+    header div.header-top {
+        h1.left {
+            width: 50px;
+        }
+        nav.right {
+            gap: 20px;
+            a {
+                font-size: 10px;
+            }
+            button.login-button {
+                padding: 8px 16px;
+                font-size: 10px;
+            }
+        }
+    }
+    #spotlight {
+        padding: 120px 0 0 0;
+        div.top {
+            div.top-left {
+                gap: 20px;
+                span {
+                    gap: 5px;
+                    div.icon {
+                        width: 12px;
+                        margin-bottom: 2px;
+                    }
+                    p {
+                        font-size: 10px;
+                    }
+                }
+                h2 {
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 10px;
+                }
+                div.input-container {
+                    padding: 10px;
+                    input {
+                        font-size: 10px;
+                    }
+                    button {
+                        padding: 10px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            div.top-right {
+                div.spotlight-image {
+                    width: 100px;
+                    &.middle {
+                        transform: translateY(45px);
+                    }
+                }
+            }
+        }
+        div.bottom {
+            padding: 50px 0;
+            h5 {
+                font-size: 9px;
+            }
+            ul {
+                gap: 15px;
+                li {
+                    width: 50px;
+                }
+            }
+        }
+    }
+    #achieve {
+        padding: 40px 0;
+        .wrapper {
+            div.left {
+                width: 25%;
+                gap: 10px;
+                h5 {
+                    font-size: 10px;
+                }
+                h3 {
+                    font-size: 15px;
+                }
+            }
+            div.middle {
+                width: 35%;
+                div.image {
+                    width: 50px;
+                    padding: 10px;
+                }
+                div.text {
+                    gap: 5px;
+                    h4 {
+                        font-size: 13px;
+                    }
+                    p {
+                        font-size: 8px;
+                    }
+                }
+            }
+            div.right {
+                width: 35%;
+                div.image {
+                    width: 50px;
+                    padding: 10px;
+                }
+                div.text {
+                    gap: 5px;
+                    h4 {
+                        font-size: 13px;
+                    }
+                    p {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+    #help {
+        padding: 60px 0;
+        gap: 40px;
+        div.top {
+            h2 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 9px;
+            }
+        }
+        ul.middle {
+            gap: 20px;
+            li {
+                width: 30%;
+                padding: 30px 10px;
+                div.icon {
+                    width: 60px;
+                    padding: 15px;
+                }
+                h5 {
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 90%;
+                }
+            }
+        }
+        div.bottom button {
+            padding: 10px 20px;
+            font-size: 11px;
+        }
+    }
+    #schedule {
+        padding: 50px 0;
+        gap: 50px;
+        div.right {
+            gap: 15px;
+            h6 {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 15px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 10px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more {
+                span {
+                    font-size: 10px;
+                }
+                div.icon {
+                    width: 15px;
+                }
+            }
+        }
+    }
+    #monitor {
+        padding: 50px 0;
+        padding: 50px 0;
+        gap: 50px;
+        div.left {
+            gap: 15px;
+            h6 {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 15px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 10px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more {
+                span {
+                    font-size: 10px;
+                }
+                div.icon {
+                    width: 15px;
+                }
+            }
+        }
+    }
+    #pricing {
+        padding: 50px 0;
+        div.price-container {
+            width: 70%;
+            div.top {
+                display: flex;
+                justify-content: space-between;
+                width: 70%;
+                div.price-details h4 {
+                    font-size: 20px;
+                    color: #020331;
+                    font-family: "Gordita Bold";
+                }
+            }
+        }
+        div.pricing-input-container {
+            width: 50%;
+            padding: 10px;
+            bottom: 10px;
+            right: 80px;
+            button {
+                padding: 12px 24px;
+                font-size: 10px;
+            }
+        }
+    }
+    #service {
+        padding: 50px 0;
+        div.left {
+            h1 {
+                font-size: 25px;
+                width: 90%;
+            }
+            p {
+                font-size: 10px;
+                width: 90%;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 12px;
+                width: 160px;
+            }
+            div.details {
+                div.details-icon {
+                    width: 25px;
+                    height: 25px;
+                }
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+        ul.right {
+            li {
+                width: 48%;
+                margin-bottom: 25px;
+                gap: 15px;
+                div.icon {
+                    width: 30px;
+                }
+                h6 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 100%;
+                }
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #testimonials {
+        div.top {
+            h3 {
+                font-size: 25px;
+            }
+            h6 {
+                font-size: 10px;
+            }
+        }
+        ul.bottom {
+            gap: 20px;
+            li {
+                width: 30%;
+                div.profile {
+                    width: 40%;
+                }
+                ul.starbox {
+                    gap: 5px;
+                    li.star {
+                        width: 10px;
+                    }
+                }
+                h6 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #subscribe {
+        padding: 80px 5%;
+        div.container {
+            padding: 10% 5%;
+            gap: 20px;
+            width: 100%;
+            margin: 0 auto;
+            div.left {
+                h4 {
+                    font-size: 15px;
+                }
+                h6 {
+                    font-size: 10px;
+                }
+            }
+            div.right {
+                height: auto;
+                input {
+                    font-size: 10px;
+                }
+                button {
+                    font-size: 10px;
+                    padding: 10px;
+                    div.arrow {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        padding: 50px 0 20px 0;
+        div.top {
+            div.top-left {
+                width: 30%;
+                div.logo span {
+                    font-size: 12px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 90%;
+                }
+            }
+            ul.top-right {
+                width: 60%;
+                gap: 20px;
+                li {
+                    h5 {
+                        font-size: 12px;
+                    }
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        div.bottom p {
+            font-size: 10px;
+        }
+    }
+}
+
+// ------------------------ responsive for 640 ends -----------------------------------------
+
+@media all and (max-width: 480px) {
+    header {
+        div.header-top {
+            h1.left {
+                width: 50px;
+            }
+            nav.right {
+                display: none;
+            }
+            div#menu-icon {
+                display: block;
+                width: 30px;
+            }
+        }
+        div#menu {
+            padding: 80px;
+            &.active {
+                padding: 80px 0 0 0;
+            }
+            a {
+                font-size: 13px;
+            }
+            button.login-button {
+                font-size: 13px;
+            }
+        }
+    }
+    #spotlight {
+        padding: 80px 0 0 0;
+        div.top {
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 80px;
+            div.top-left {
+                width: 100%;
+                align-items: center;
+                gap: 20px;
+                span {
+                    gap: 5px;
+                    div.icon {
+                        width: 15px;
+                        margin-bottom: 2px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+                h2 {
+                    font-size: 25px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 12px;
+                    text-align: center;
+                }
+                div.input-container {
+                    width: 70%;
+                    padding: 10px;
+                    input {
+                        font-size: 12px;
+                    }
+                    button {
+                        padding: 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
+            div.top-right {
+                width: 75%;
+                div.spotlight-image {
+                    width: 120px;
+                    &.middle {
+                        transform: translateY(35px);
+                    }
+                    img {
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+        div.bottom {
+            padding: 50px 0;
+            gap: 20px;
+            justify-content: space-between;
+            h5 {
+                font-size: 9px;
+                width: 95%;
+            }
+            ul {
+                gap: 15px;
+                flex-wrap: wrap;
+                width: 140%;
+                li {
+                    width: 70px;
+                }
+            }
+        }
+    }
+    #achieve {
+        padding: 40px 0;
+        .wrapper {
+            div.left {
+                width: 25%;
+                gap: 10px;
+                h5 {
+                    font-size: 10px;
+                }
+                h3 {
+                    font-size: 15px;
+                }
+            }
+            div.middle {
+                width: 35%;
+                div.image {
+                    width: 50px;
+                    padding: 10px;
+                }
+                div.text {
+                    gap: 5px;
+                    h4 {
+                        font-size: 13px;
+                    }
+                    p {
+                        font-size: 8px;
+                    }
+                }
+            }
+            div.right {
+                width: 35%;
+                div.image {
+                    width: 50px;
+                    padding: 10px;
+                }
+                div.text {
+                    gap: 5px;
+                    h4 {
+                        font-size: 13px;
+                    }
+                    p {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+    #help {
+        padding: 50px 0;
+        gap: 30px;
+        div.top {
+            h2 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 8px;
+            }
+        }
+        ul.middle {
+            gap: 10px;
+            flex-wrap: wrap;
+            li {
+                width: 50%;
+                padding: 30px 10px;
+                div.icon {
+                    width: 60px;
+                    padding: 15px;
+                }
+                h5 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 90%;
+                }
+            }
+        }
+        div.bottom button {
+            padding: 10px 20px;
+            font-size: 11px;
+        }
+    }
+    #schedule {
+        padding: 50px 0;
+        gap: 50px;
+        div.right {
+            gap: 15px;
+            h6 {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 15px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 10px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more {
+                span {
+                    font-size: 10px;
+                }
+                div.icon {
+                    width: 15px;
+                }
+            }
+        }
+    }
+    #monitor {
+        padding: 50px 0;
+        padding: 50px 0;
+        gap: 50px;
+        div.left {
+            gap: 15px;
+            h6 {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 15px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 10px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more {
+                span {
+                    font-size: 10px;
+                }
+                div.icon {
+                    width: 15px;
+                }
+            }
+        }
+    }
+    #pricing {
+        padding: 50px 0;
+        div.price-container {
+            width: 70%;
+            h4 {
+                font-size: 20px;
+            }
+            div.top {
+                display: flex;
+                justify-content: space-between;
+                width: 60%;
+                div.price-details {
+                    h6 {
+                        font-size: 13px;
+                    }
+                    h4 {
+                        font-size: 15px;
+                        color: #020331;
+                        font-family: "Gordita Bold";
+                    }
+                }
+            }
+            div.bottom {
+                h5 {
+                    font-size: 12px;
+                }
+                div.price-slider {
+                    height: 10px;
+                    div.price-slider-circle {
+                        height: 10px;
+                        width: 10px;
+                    }
+                }
+            }
+        }
+        div.pricing-input-container {
+            width: 65%;
+            padding: 5px 5px 5px 10px;
+            bottom: 15px;
+            right: 40px;
+            input {
+                font-size: 9px;
+            }
+            button {
+                padding: 12px 24px;
+                font-size: 10px;
+            }
+        }
+    }
+    #service {
+        padding: 50px 0;
+        div.left {
+            h1 {
+                font-size: 20px;
+                width: 90%;
+            }
+            p {
+                font-size: 9px;
+                width: 90%;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 12px;
+                width: 160px;
+            }
+            div.details {
+                div.details-icon {
+                    width: 25px;
+                    height: 25px;
+                }
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+        ul.right {
+            li {
+                width: 48%;
+                margin-bottom: 25px;
+                gap: 15px;
+                div.icon {
+                    width: 25px;
+                }
+                h6 {
+                    font-size: 13px;
+                }
+                p {
+                    font-size: 9px;
+                    width: 100%;
+                }
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #testimonials {
+        div.top {
+            h3 {
+                font-size: 20px;
+            }
+            h6 {
+                font-size: 10px;
+            }
+        }
+        ul.bottom {
+            flex-direction: column-reverse;
+            gap: 30px;
+            li {
+                width: 50%;
+                div.profile {
+                    width: 40%;
+                }
+                ul.starbox {
+                    gap: 5px;
+                    li.star {
+                        width: 10px;
+                    }
+                }
+                h6 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #subscribe {
+        padding: 50px 5%;
+        div.container {
+            padding: 10% 5%;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            div.left {
+                h4 {
+                    font-size: 17px;
+                }
+                h6 {
+                    font-size: 12px;
+                }
+            }
+            div.right {
+                height: auto;
+                width: auto;
+                input {
+                    font-size: 12px;
+                }
+                button {
+                    font-size: 12px;
+                    padding: 10px;
+                    div.arrow {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        padding: 50px 0 0px 0;
+        div.top {
+            margin-bottom: 20px;
+            div.top-left {
+                width: 30%;
+                gap: 10px;
+                div.logo span {
+                    font-size: 12px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 90%;
+                }
+            }
+            ul.top-right {
+                width: 70%;
+                gap: 10px;
+                li {
+                    gap: 10px;
+                    h5 {
+                        font-size: 12px;
+                    }
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        div.bottom p {
+            font-size: 10px;
+        }
+    }
+}
+
+// ------------------------ responsive for 480 ends -----------------------------------------
+
+@media all and (max-width: 360px) {
+    header {
+        div.header-top {
+            h1.left {
+                width: 50px;
+            }
+            nav.right {
+                display: none;
+            }
+            div#menu-icon {
+                display: block;
+                width: 30px;
+            }
+        }
+        div#menu {
+            padding: 80px;
+            &.active {
+                padding: 80px 0 0 0;
+            }
+            a {
+                font-size: 13px;
+            }
+            button.login-button {
+                font-size: 13px;
+            }
+        }
+    }
+    #spotlight {
+        padding: 80px 0 0 0;
+        div.top {
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 80px;
+            div.top-left {
+                width: 100%;
+                align-items: center;
+                gap: 20px;
+                span {
+                    gap: 5px;
+                    div.icon {
+                        width: 15px;
+                        margin-bottom: 2px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+                h2 {
+                    font-size: 25px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 12px;
+                    text-align: center;
+                }
+                div.input-container {
+                    width: 70%;
+                    padding: 5px 5px 5px 10px;
+                    input {
+                        font-size: 10px;
+                        width: 40%;
+                    }
+                    button {
+                        padding: 10px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            div.top-right {
+                width: 75%;
+                div.spotlight-image {
+                    width: 120px;
+                    &.middle {
+                        transform: translateY(35px);
+                    }
+                    img {
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+        div.bottom {
+            padding: 50px 0;
+            gap: 20px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            h5 {
+                font-size: 10px;
+                width: 60%;
+                text-align: center;
+            }
+            ul {
+                gap: 15px;
+                flex-wrap: wrap;
+                width: 90%;
+                align-items: center;
+                justify-content: center;
+                li {
+                    width: 50px;
+                }
+            }
+        }
+    }
+    #achieve {
+        padding: 40px 0;
+        .wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            div.left {
+                width: 80%;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                h5 {
+                    font-size: 10px;
+                }
+                h3 {
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }
+            div.middle {
+                width: 45%;
+                div.image {
+                    width: 80px;
+                    padding: 10px;
+                }
+                div.text {
+                    gap: 5px;
+                    h4 {
+                        font-size: 11px;
+                    }
+                    p {
+                        font-size: 8px;
+                    }
+                }
+            }
+            div.right {
+                width: 45%;
+                div.image {
+                    width: 80px;
+                    padding: 10px;
+                }
+                div.text {
+                    gap: 5px;
+                    h4 {
+                        font-size: 11px;
+                    }
+                    p {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+    #help {
+        padding: 50px 0;
+        gap: 20px;
+        div.top {
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 8px;
+            }
+        }
+        ul.middle {
+            gap: 10px;
+            flex-wrap: wrap;
+            li {
+                width: 70%;
+                padding: 30px 10px;
+                div.icon {
+                    width: 60px;
+                    padding: 15px;
+                }
+                h5 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 90%;
+                }
+            }
+        }
+        div.bottom button {
+            padding: 10px 20px;
+            font-size: 11px;
+        }
+    }
+    #schedule {
+        padding: 20px 0;
+        gap: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div.right {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+            width: 80%;
+            h6 {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 15px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 10px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more {
+                span {
+                    font-size: 10px;
+                }
+                div.icon {
+                    width: 15px;
+                }
+            }
+        }
+    }
+    #monitor {
+        padding: 20px 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        div.left {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+            width: 80%;
+            h6 {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 15px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 10px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more {
+                span {
+                    font-size: 10px;
+                }
+                div.icon {
+                    width: 15px;
+                }
+            }
+        }
+    }
+    #pricing {
+        padding: 50px 0;
+        div.price-container {
+            width: 75%;
+            justify-content: center;
+            align-items: center;
+            h4 {
+                font-size: 18px;
+            }
+            div.top {
+                display: flex;
+                justify-content: center;
+                width: 60%;
+                gap: 20px;
+                div.price-details {
+                    h6 {
+                        font-size: 10px;
+                    }
+                    h4 {
+                        font-size: 12px;
+                        color: #020331;
+                        font-family: "Gordita Bold";
+                    }
+                }
+            }
+            div.bottom {
+                h5 {
+                    font-size: 12px;
+                }
+                div.price-slider {
+                    height: 10px;
+                    div.price-slider-circle {
+                        height: 10px;
+                        width: 10px;
+                    }
+                }
+            }
+        }
+        div.pricing-input-container {
+            width: 65%;
+            padding: 5px 5px 5px 10px;
+            bottom: 30px;
+            right: 20px;
+            input {
+                font-size: 9px;
+            }
+            button {
+                padding: 12px 24px;
+                font-size: 10px;
+            }
+        }
+    }
+    #service {
+        padding: 50px 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        text-align: center;
+        div.left {
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            h1 {
+                font-size: 20px;
+                width: 100%;
+            }
+            p {
+                font-size: 9px;
+                width: 90%;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 12px;
+                width: 160px;
+            }
+            div.details {
+                div.details-icon {
+                    width: 25px;
+                    height: 25px;
+                }
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+        ul.right {
+            width: 100%;
+            li {
+                width: 45%;
+                margin-bottom: 25px;
+                gap: 15px;
+                align-items: center;
+                div.icon {
+                    width: 25px;
+                }
+                h6 {
+                    font-size: 13px;
+                }
+                p {
+                    font-size: 9px;
+                    width: 100%;
+                }
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #testimonials {
+        div.top {
+            h3 {
+                font-size: 20px;
+            }
+            h6 {
+                font-size: 10px;
+            }
+        }
+        ul.bottom {
+            flex-direction: column-reverse;
+            gap: 30px;
+            li {
+                width: 80%;
+                div.profile {
+                    width: 40%;
+                }
+                ul.starbox {
+                    gap: 5px;
+                    li.star {
+                        width: 10px;
+                    }
+                }
+                h6 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #subscribe {
+        padding: 50px 5%;
+        div.container {
+            padding: 10% 5%;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            div.left {
+                h4 {
+                    font-size: 15px;
+                }
+                h6 {
+                    font-size: 10px;
+                }
+            }
+            div.right {
+                height: auto;
+                width: auto;
+                input {
+                    font-size: 10px;
+                }
+                button {
+                    font-size: 10px;
+                    padding: 10px;
+                    div.arrow {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        padding: 50px 0 0px 0;
+        div.top {
+            margin-bottom: 20px;
+            div.top-left {
+                width: 40%;
+                gap: 10px;
+                div.logo span {
+                    font-size: 12px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 100%;
+                }
+            }
+            ul.top-right {
+                width: 50%;
+                gap: 10px;
+                flex-wrap: wrap;
+                li {
+                    gap: 10px;
+                    width: 45%;
+                    h5 {
+                        font-size: 12px;
+                    }
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        div.bottom p {
+            font-size: 10px;
+        }
+    }
+}
+
+// ------------------------ responsive for 360 ends -----------------------------------------
+
+@media all and (max-width: 320px) {
+    header {
+        div.header-top {
+            h1.left {
+                width: 50px;
+            }
+            nav.right {
+                display: none;
+            }
+            div#menu-icon {
+                display: block;
+                width: 30px;
+            }
+        }
+        div#menu {
+            padding: 80px;
+            &.active {
+                padding: 80px 0 0 0;
+            }
+            a {
+                font-size: 13px;
+            }
+            button.login-button {
+                font-size: 13px;
+            }
+        }
+    }
+    #spotlight {
+        padding: 80px 0 0 0;
+        div.top {
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 80px;
+            div.top-left {
+                width: 100%;
+                align-items: center;
+                gap: 20px;
+                span {
+                    gap: 5px;
+                    div.icon {
+                        width: 15px;
+                        margin-bottom: 2px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+                h2 {
+                    font-size: 25px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 12px;
+                    text-align: center;
+                }
+                div.input-container {
+                    width: 70%;
+                    padding: 5px 5px 5px 10px;
+                    input {
+                        font-size: 10px;
+                        width: 40%;
+                    }
+                    button {
+                        padding: 10px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            div.top-right {
+                width: 75%;
+                div.spotlight-image {
+                    width: 100px;
+                    &.middle {
+                        transform: translateY(35px);
+                    }
+                    img {
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+        div.bottom {
+            padding: 50px 0;
+            gap: 20px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            h5 {
+                font-size: 10px;
+                width: 60%;
+                text-align: center;
+            }
+            ul {
+                gap: 15px;
+                flex-wrap: wrap;
+                width: 90%;
+                align-items: center;
+                justify-content: center;
+                li {
+                    width: 50px;
+                }
+            }
+        }
+    }
+    #achieve {
+        padding: 40px 0;
+        .wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            div.left {
+                width: 80%;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                h5 {
+                    font-size: 10px;
+                }
+                h3 {
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }
+            div.middle {
+                width: 45%;
+                div.image {
+                    width: 80px;
+                    padding: 10px;
+                }
+                div.text {
+                    gap: 5px;
+                    h4 {
+                        font-size: 11px;
+                    }
+                    p {
+                        font-size: 8px;
+                    }
+                }
+            }
+            div.right {
+                width: 45%;
+                div.image {
+                    width: 80px;
+                    padding: 10px;
+                }
+                div.text {
+                    gap: 5px;
+                    h4 {
+                        font-size: 11px;
+                    }
+                    p {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+    #help {
+        padding: 50px 0;
+        gap: 20px;
+        div.top {
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 8px;
+            }
+        }
+        ul.middle {
+            gap: 10px;
+            flex-wrap: wrap;
+            li {
+                width: 70%;
+                padding: 30px 10px;
+                div.icon {
+                    width: 60px;
+                    padding: 15px;
+                }
+                h5 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 90%;
+                }
+            }
+        }
+        div.bottom button {
+            padding: 10px 20px;
+            font-size: 11px;
+        }
+    }
+    #schedule {
+        padding: 20px 0;
+        gap: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div.right {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+            width: 80%;
+            h6 {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 15px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 10px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more {
+                span {
+                    font-size: 10px;
+                }
+                div.icon {
+                    width: 15px;
+                }
+            }
+        }
+    }
+    #monitor {
+        padding: 20px 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        div.left {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+            width: 80%;
+            h6 {
+                font-size: 10px;
+            }
+            h4 {
+                font-size: 15px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 10px;
+                width: 90%;
+                margin-bottom: 10px;
+            }
+            div.learn-more {
+                span {
+                    font-size: 10px;
+                }
+                div.icon {
+                    width: 15px;
+                }
+            }
+        }
+    }
+    #pricing {
+        padding: 50px 0;
+        div.price-container {
+            width: 75%;
+            justify-content: center;
+            align-items: center;
+            h4 {
+                font-size: 18px;
+            }
+            div.top {
+                display: flex;
+                justify-content: center;
+                width: 60%;
+                gap: 20px;
+                div.price-details {
+                    h6 {
+                        font-size: 10px;
+                    }
+                    h4 {
+                        font-size: 12px;
+                        color: #020331;
+                        font-family: "Gordita Bold";
+                    }
+                }
+            }
+            div.bottom {
+                h5 {
+                    font-size: 12px;
+                }
+                div.price-slider {
+                    height: 10px;
+                    div.price-slider-circle {
+                        height: 10px;
+                        width: 10px;
+                    }
+                }
+            }
+        }
+        div.pricing-input-container {
+            width: 70%;
+            padding: 5px 5px 5px 10px;
+            bottom: 30px;
+            right: 20px;
+            input {
+                font-size: 8px;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 8px;
+            }
+        }
+    }
+    #service {
+        padding: 50px 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        text-align: center;
+        div.left {
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            h1 {
+                font-size: 20px;
+                width: 100%;
+            }
+            p {
+                font-size: 9px;
+                width: 90%;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 12px;
+                width: 160px;
+            }
+            div.details {
+                div.details-icon {
+                    width: 25px;
+                    height: 25px;
+                }
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+        ul.right {
+            width: 100%;
+            li {
+                width: 45%;
+                margin-bottom: 25px;
+                gap: 15px;
+                align-items: center;
+                div.icon {
+                    width: 25px;
+                }
+                h6 {
+                    font-size: 13px;
+                }
+                p {
+                    font-size: 9px;
+                    width: 100%;
+                }
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #testimonials {
+        div.top {
+            h3 {
+                font-size: 20px;
+            }
+            h6 {
+                font-size: 10px;
+            }
+        }
+        ul.bottom {
+            flex-direction: column-reverse;
+            gap: 30px;
+            li {
+                width: 80%;
+                div.profile {
+                    width: 40%;
+                }
+                ul.starbox {
+                    gap: 5px;
+                    li.star {
+                        width: 10px;
+                    }
+                }
+                h6 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #subscribe {
+        padding: 50px 5%;
+        div.container {
+            padding: 10% 5%;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            div.left {
+                h4 {
+                    font-size: 15px;
+                }
+                h6 {
+                    font-size: 10px;
+                }
+            }
+            div.right {
+                height: auto;
+                width: auto;
+                input {
+                    font-size: 10px;
+                }
+                button {
+                    font-size: 10px;
+                    padding: 10px;
+                    div.arrow {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        padding: 50px 0 0px 0;
+        div.top {
+            margin-bottom: 20px;
+            div.top-left {
+                width: 40%;
+                gap: 10px;
+                div.logo span {
+                    font-size: 12px;
+                }
+                p {
+                    font-size: 10px;
+                    width: 100%;
+                }
+            }
+            ul.top-right {
+                width: 50%;
+                gap: 10px;
+                flex-wrap: wrap;
+                li {
+                    gap: 10px;
+                    width: 45%;
+                    h5 {
+                        font-size: 12px;
+                    }
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        div.bottom p {
+            font-size: 10px;
+        }
+    }
+}
+
+// ------------------------ responsive for 320 ends -----------------------------------------
